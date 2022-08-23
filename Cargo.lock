@@ -3,6 +3,13 @@
 version = 3
 
 [[package]]
+name = "BJ2022"
+version = "0.1.0"
+dependencies = [
+ "bevy",
+]
+
+[[package]]
 name = "ab_glyph"
 version = "0.2.16"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -376,13 +383,6 @@ dependencies = [
  "bevy_input",
  "bevy_utils",
  "gilrs",
-]
-
-[[package]]
-name = "bevy_github_ci_template"
-version = "0.1.0"
-dependencies = [
- "bevy",
 ]
 
 [[package]]
