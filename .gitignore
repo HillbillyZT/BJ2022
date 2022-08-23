@@ -1,1 +1,4 @@
 /target
+/.vscode
+/wasm
+/wgpu_trace

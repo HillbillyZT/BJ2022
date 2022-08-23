@@ -59,16 +59,16 @@ features = [
   "wav",
 
   # Development/Debug features:
-  "dynamic",      # Dynamic linking for faster compile-times
-  "trace",        # Enable tracing for performance measurement
-  "trace_tracy",  # Tracing using `tracy`
-  "trace_chrome", # Tracing using the Chrome format
-  "wgpu_trace",   # WGPU/rendering tracing
+  # "dynamic",      # Dynamic linking for faster compile-times
+  #"trace",        # Enable tracing for performance measurement
+  #"trace_tracy",  # Tracing using `tracy`
+  #"trace_chrome", # Tracing using the Chrome format
+  #"wgpu_trace",   # WGPU/rendering tracing
 ]
 
 bevy_kira_audio = "0.12.0"
 iyes_loopless = "main"
-leafwing_input_manager = 
+leafwing_input_manager = "0.5.2"
 
 
 
