@@ -4,6 +4,12 @@ version = "0.1.0"
 edition = "2021"
 license = "Apache-2.0"
 
+[dependencies]
+bevy_kira_audio = "0.12.0"
+iyes_loopless = "0.7.1"
+leafwing-input-manager = "0.5.2"
+bevy-inspector-egui = "0.12.1"
+
 [dependencies.bevy]
 version = "0.8"
 # Disable the default features if there are any that you do not want
@@ -59,18 +65,12 @@ features = [
   "wav",
 
   # Development/Debug features:
-  # "dynamic",      # Dynamic linking for faster compile-times
+  "dynamic",      # Dynamic linking for faster compile-times
   #"trace",        # Enable tracing for performance measurement
   #"trace_tracy",  # Tracing using `tracy`
   #"trace_chrome", # Tracing using the Chrome format
   #"wgpu_trace",   # WGPU/rendering tracing
 ]
-
-bevy_kira_audio = "0.12.0"
-iyes_loopless = "main"
-leafwing_input_manager = "0.5.2"
-
-
 
 [profile.dev]
 opt-level = 1
